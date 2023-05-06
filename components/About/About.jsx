@@ -81,7 +81,7 @@ const About = () => {
               className={style.Mandala}
               src={img}
               alt="Mandala"
-              width={50}
+              width={150}
               height={50}
             />
           </a>
