@@ -14,10 +14,6 @@ const Layout = ({ children }) => {
   );
 };
 
-/* Layout.proptypes = {
-  children: PropTypes.node,
-  title: PropTypes.string,
-  footer: PropTypes.bool,
-};
- */
+
+ 
 export default Layout;

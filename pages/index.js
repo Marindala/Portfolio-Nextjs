@@ -3,7 +3,8 @@ import Image from "next/image";
 import * as Components from "../components";
 import Link from "next/link";
 import Layout from "../components/Layout";
-import img from "../assets/port.jpg";
+import img from "../assets/portfolio1.png";
+
 import styles from "../styles/Home.module.css";
 
 import { skills, experiences, projects } from "../profile";
@@ -15,16 +16,18 @@ export default function Index() {
       <Components.Navbar />
       <header className="row">
         <div className="col-md-12">
-          <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
+          <div className="card card-body bg-secondary animate__animated animate__fadeIn">
             <div className="row">
               <div className="col-md-4">
+                <br></br>
                 <Image src={img} alt="" className="img-fluid" />
               </div>
               <div className="col-md-8">
                 <h1>Marina López</h1>
                 <h3>Full Stack Developer</h3>
-
-                <p>
+                <br></br>
+                <br></br>
+                <h3>
                   I started in the world of programming more than a year ago, I
                   am very curious and studious, I am really interested in
                   knowing a little more every day. and know what's behind the
@@ -33,9 +36,11 @@ export default function Index() {
                   where I make exclusive designs in prints, sublimation and
                   plotting. I really have a lot of ease when it comes to
                   creating and designing.
-                </p>
+                </h3>
+                <br></br>
+                <br></br>
                 <Link href="/hireme" className="btn btn-outline-light">
-                  Hire Me
+                  Contact Me
                 </Link>
               </div>
             </div>
@@ -75,6 +80,8 @@ export default function Index() {
           {/* Experience */}
           <div className="card bg-light animate__animated animate__fadeInRight">
             <div className="card-body">
+              <br></br>
+
               <h1>Experience</h1>
 
               <ul>
@@ -108,7 +115,7 @@ export default function Index() {
             <div className="card card-body bg-dark">
               <div className="row">
                 <div className="col-md-12 my-2">
-                  <h1 className="text-center text-light">Portfolio</h1>
+                  <h1 className="text-center text-light">Projects</h1>
                 </div>
                 {projects.map(({ name, description, image }, index) => (
                   <div className="col-md-4 p-2" key={index}>

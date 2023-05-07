@@ -10,19 +10,19 @@ export const skills = [
       
     },
     {
-      skill: "Blockchain",
-      percentage: 40,
+      skill: "Redux",
+      percentage: 60,
     },
     {
-      skill: "Physics",
+      skill: "React",
       percentage: 70,
     },
     {
-      skill: "Economics",
+      skill: "Next.js",
       percentage: 70,
     },
     {
-      skill: "Machine Learning",
+      skill: "HTML",
       percentage: 70,
     },
   ];

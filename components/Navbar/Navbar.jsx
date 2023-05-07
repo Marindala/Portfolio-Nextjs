@@ -16,7 +16,7 @@ const NavBar = () => {
   const handleClick = () => setClick(!click);  */
 
   return (
-    <nav className="navbar navbar-expand-lg bg-primary">
+    <nav className="navbar navbar-expand-lg bg-light">
       <div className="container">
         <Link
           href="/"
@@ -62,17 +62,15 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item active ml-auto">
-              <Link
+             {/*  <Link
                 href="#CV"
                 className="nav-link active text-primary text-white fs-4 text"
                 aria-current="page"
               >
                 Download-CV
-              </Link>
+              </Link> */}
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link disabled bg-white">Disabled</a>
-            </li> */}
+           
           </ul>
           <button
             className="navbar-toggler"
