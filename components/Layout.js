@@ -1,15 +1,16 @@
 const Layout = ({ children }) => {
   return (
-    <div className={classNames({ "bg-dark": dark, "bg-light": !dark })}>
-      <Navbar />
+    <> {/* fragment */}
+     {/*  <Navbar /> */}
       <main className="container py-4">
        
+       
+      {children}
         
-        {children}
       </main>
 
      
-    </div>
+    </>
   );
 };
 

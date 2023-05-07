@@ -19,10 +19,10 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg bg-primary">
       <div className="container">
         <Link
-          href="#"
+          href="/"
           className="navbar-brand text-primary text-white fs-3 text"
         >
-          Marina
+          My Portfolio
         </Link>
 
         <div className="navbar ml-auto" id="navbarNav">
