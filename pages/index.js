@@ -3,7 +3,7 @@ import Image from "next/image";
 import * as Components from "../components";
 import Link from "next/link";
 import Layout from "../components/Layout";
-import img from "../assets/port.jpg"
+import img from "../assets/port.jpg";
 import styles from "../styles/Home.module.css";
 
 import { skills, experiences, projects } from "../profile";
@@ -12,32 +12,30 @@ import { Nav } from "react-bootstrap";
 export default function Index() {
   return (
     <Layout>
-      <Components.Navbar/>
+      <Components.Navbar />
       <header className="row">
         <div className="col-md-12">
           <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
             <div className="row">
               <div className="col-md-4">
-                <Image
-                  src={img}
-                  alt=""
-                  className="img-fluid"
-                />
+                <Image src={img} alt="" className="img-fluid" />
               </div>
               <div className="col-md-8">
                 <h1>Marina López</h1>
                 <h3>Full Stack Developer</h3>
+
                 <p>
-                I started in the world of programming more than a year ago, I am very
-          curious and studious, I am really interested in knowing a little more
-          every day. and know what's behind the scenes. Before starting my
-          career as a programmer, I dedicated myself to study and work in visual
-          arts. I have a t-shirt firm where I make exclusive designs in prints,
-          sublimation and plotting. I really have a lot of ease when it comes to
-          creating and designing.
+                  I started in the world of programming more than a year ago, I
+                  am very curious and studious, I am really interested in
+                  knowing a little more every day. and know what's behind the
+                  scenes. Before starting my career as a programmer, I dedicated
+                  myself to study and work in visual arts. I have a t-shirt firm
+                  where I make exclusive designs in prints, sublimation and
+                  plotting. I really have a lot of ease when it comes to
+                  creating and designing.
                 </p>
                 <Link href="/hireme" className="btn btn-outline-light">
-                   Hire Me
+                  Hire Me
                 </Link>
               </div>
             </div>
@@ -97,7 +95,7 @@ export default function Index() {
                 ))}
               </ul>
               <Link href="/hireme" className="btn btn-light">
-               Know More
+                Know More
               </Link>
             </div>
           </div>
