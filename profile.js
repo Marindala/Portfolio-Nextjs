@@ -29,9 +29,9 @@ export const skills = [
   
   export const experiences = [
     {
-      title: "Software developer at Microsoft",
+      title: "Full Stack Developer Henry Hero",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
+        "",
       from: 2000,
       to: 2005,
     },

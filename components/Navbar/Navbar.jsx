@@ -38,10 +38,10 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
-                href="#About"
+                href="#Experience"
                 className="nav-link text-primary text-white fs-4 text"
               >
-                About Me
+                Experience
               </Link>
             </li>
             <li className="nav-item">

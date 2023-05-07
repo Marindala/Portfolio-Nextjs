@@ -39,7 +39,7 @@ export default function Index() {
                 </h3>
                 <br></br>
                 <br></br>
-                <Link href="/hireme" className="btn btn-outline-light">
+                <Link href="/contactMe" className="btn btn-outline-light">
                   Contact Me
                 </Link>
               </div>
@@ -76,7 +76,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="col-md-8 py-2">
+        <div className="col-md-8 py-2" id="Experience">
           {/* Experience */}
           <div className="card bg-light animate__animated animate__fadeInRight">
             <div className="card-body">
@@ -110,7 +110,7 @@ export default function Index() {
       </section>
       {/* Porfolio */}
       <section>
-        <div className="row">
+        <div className="row" id="Projects">
           <div className="col-md-12">
             <div className="card card-body bg-dark">
               <div className="row">
