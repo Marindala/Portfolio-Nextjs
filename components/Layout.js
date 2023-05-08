@@ -5,8 +5,8 @@ const Layout = ({ children, footer = true }) => {
       <main className="container py-4">{children}</main>
 
       {footer && (
-        <footer className="bg-dark text-light text-center">
-          <div className="container p-4">
+        <footer className="bg-dark text-light text-center" >
+          <div className="container p-4" id="Contacts">
             <h1>&copy; Marina López</h1>
             <p>2000 - {new Date().getFullYear()}</p>{" "}
             {/* obtiene del 200 al año actual */}
