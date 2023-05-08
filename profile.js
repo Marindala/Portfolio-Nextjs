@@ -1,3 +1,5 @@
+import Portada from "./assets/port.jpg"
+
 export const skills = [
     {
       skill: "Javascript",
@@ -53,41 +55,27 @@ export const skills = [
   
   export const projects = [
     {
-      name: "Awesome Website 1",
+      name: "Portfolio Personal Marina",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio1.jpeg",
+        "",
+      image:"imageport.png" ,
+      view: "https://portfolio-marina-marindala.netlify.app/",
     },
     {
-      name: "Awesome Website 2",
+      name: "App Country",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio2.jpg",
+        "",
+      image: "country.jpg",
+      view: "https://pi-countries.netlify.app/",
     },
     {
-      name: "Awesome Website 3",
+      name: "App Dog",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio3.png",
+        "",
+      image: "Dog.jpg",
+      view: "",
     },
-    {
-      name: "Awesome Website 4",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio4.png",
-    },
-    {
-      name: "Awesome Website 5",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio5.jpeg",
-    },
-    {
-      name: "Awesome Website 6",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-      image: "portfolio6.jpeg",
-    },
+    
   ];
   
   export const posts = [

@@ -5,15 +5,18 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import img from "../assets/portfolio1.png";
 
+//import image from "../assets/port.jpg"
+
 import styles from "../styles/Home.module.css";
 
 import { skills, experiences, projects } from "../profile";
-import { Nav } from "react-bootstrap";
 
 export default function Index() {
   return (
     <Layout>
+      
       <Components.Navbar />
+     
       <header className="row">
         <div className="col-md-12">
           <div className="card card-body bg-secondary animate__animated animate__fadeIn">
@@ -71,7 +74,6 @@ export default function Index() {
                       aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      
                     ></div>
                     <br></br>
                   </div>
@@ -102,13 +104,10 @@ export default function Index() {
                 ))}
               </ul>
               <br></br>
-              
+
               <br></br>
-              <button className="bg-primary py-1">
-                  More
-                </button>
-                <br></br>
-                
+              <button className="bg-primary py-1">More</button>
+              <br></br>
             </div>
           </div>
         </div>
@@ -116,7 +115,6 @@ export default function Index() {
       </section>
       {/* Porfolio */}
       <section>
-     
         <div className="row" id="Projects">
           <div className="col-md-12">
             <div className="card card-body bg-dark">
@@ -124,20 +122,23 @@ export default function Index() {
                 <div className="col-md-12 my-2">
                   <h1 className="text-center text-light">Projects</h1>
                 </div>
-                {projects.map(({ name, description, image }, index) => (
+                {projects.map(({ name, image,view }, index) => (
                   <div className="col-md-4 p-2" key={index}>
                     <div className="card h-100">
                       <div className="overflow">
-                        <img
+                        
+                      </div>
+                      <div className="card border-primary mb-8">
+                        <h3 className="card-title">{name}</h3>
+                        <img className="img-fluid"
                           src={`/${image}`}
                           alt=""
-                          className="card-img-top"
+                         
                         />
-                      </div>
-                      <div className="card-body">
-                        <h3>{name}</h3>
-                        <p>{description}</p>
-                        <a href="#!">Know More</a>
+
+                       {/*  <p>{description}</p> */}
+                       <br></br>
+                        <a href={view}>View</a>
                       </div>
                     </div>
                   </div>
