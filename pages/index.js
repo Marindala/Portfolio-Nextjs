@@ -1,22 +1,16 @@
-import Head from "next/head";
 import Image from "next/image";
 import * as Components from "../components";
 import Link from "next/link";
 import Layout from "../components/Layout";
 import img from "../assets/portfolio1.png";
-
-//import image from "../assets/port.jpg"
-
-import styles from "../styles/Home.module.css";
-
 import { skills, experiences, projects } from "../profile";
+
 
 export default function Index() {
   return (
     <Layout>
-      
       <Components.Navbar />
-     
+
       <header className="row">
         <div className="col-md-12">
           <div className="card card-body bg-secondary animate__animated animate__fadeIn">
@@ -122,22 +116,19 @@ export default function Index() {
                 <div className="col-md-12 my-2">
                   <h1 className="text-center text-light">Projects</h1>
                 </div>
-                {projects.map(({ name, image,view }, index) => (
+                {projects.map(({ name, image, view }, index) => (
                   <div className="col-md-4 p-2" key={index}>
                     <div className="card h-100">
                       <div className="overflow">
-                        
+                      <img className="card-img-top" src={`/${image}`} alt="" />
                       </div>
                       <div className="card border-primary mb-8">
+                     
                         <h3 className="card-title">{name}</h3>
-                        <img className="img-fluid"
-                          src={`/${image}`}
-                          alt=""
-                         
-                        />
+                       
 
-                       {/*  <p>{description}</p> */}
-                       <br></br>
+                        {/*  <p>{description}</p> */}
+                        <br></br>
                         <a href={view}>View</a>
                       </div>
                     </div>
