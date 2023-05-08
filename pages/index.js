@@ -51,10 +51,13 @@ export default function Index() {
       {/* Second section */}
 
       <section className="row">
-        <div className="col-md-4 py-2">
+        <div className="col-md-4 py-3">
           <div className="card bg-light animate__animated animate__fadeInLeft">
             <div className="card-body">
+              <br></br>
+
               <h1>Skills</h1>
+              <br></br>
 
               {/* Skill Progress  */}
               {skills.map(({ skill, percentage }, i) => (
@@ -68,7 +71,9 @@ export default function Index() {
                       aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
+                      
                     ></div>
+                    <br></br>
                   </div>
                 </div>
               ))}
@@ -76,40 +81,42 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="col-md-8 py-2" id="Experience">
+        <div className="col-md-8 py-3" id="Experience">
           {/* Experience */}
           <div className="card bg-light animate__animated animate__fadeInRight">
-            <div className="card-body">
+            <div className="card-body py-2">
               <br></br>
 
               <h1>Experience</h1>
-
+              <br></br>
               <ul>
                 {/* List Item Experience */}
-                {experiences.map(({ title, from, to }, index) => (
+                {experiences.map(({ title, from, to, description }, index) => (
                   <li key={index}>
                     <h3>{title}</h3>
                     <h5>
                       {from} {to ? `- ${to}` : "- current"}
                     </h5>
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Sint excepturi ea explicabo. Illum suscipit illo, porro
-                      quisquam voluptatem officiis fugiat vel animi aliquam
-                      inventore rem. Quo laudantium temporibus cupiditate. Aut?
-                    </p>
+                    <p>{description}</p>
                   </li>
                 ))}
               </ul>
-              <Link href="/hireme" className="btn btn-light">
-                Know More
-              </Link>
+              <br></br>
+              
+              <br></br>
+              <button className="bg-primary py-1">
+                  More
+                </button>
+                <br></br>
+                
             </div>
           </div>
         </div>
+        <br></br>
       </section>
       {/* Porfolio */}
       <section>
+     
         <div className="row" id="Projects">
           <div className="col-md-12">
             <div className="card card-body bg-dark">

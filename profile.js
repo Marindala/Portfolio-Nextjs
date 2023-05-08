@@ -24,30 +24,31 @@ export const skills = [
     {
       skill: "HTML",
       percentage: 70,
-    },
+    }, 
   ];
   
   export const experiences = [
     {
       title: "Full Stack Developer Henry Hero",
-      description:
-        "",
-      from: 2000,
-      to: 2005,
+      description: "Instructora en clases de programación (Javascript) online, para personas de toda Latinoamérica que desean dar sus primeros pasos en el mundo de la programación y se propusieron el desafío de ingresar al bootcamp de Henry.",
+      from: 2022,
+      to: 2023,
     },
     {
-      title: "Software developer at Google",
+      title: "Manager Creation",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
+        "Co-Creadora de la firma Yo Soy Yo dedicada al diseño de Estampas subimadas y ploteadas, diseños exclusivos con amplio alcance dentro de la creatividad",
+      from: 2013,
+      to: 2022,
+    },
+    {
+      title: "Empleada Administrativa-Encargada",
+      description:
+        "Recepcionista. Manejo de caja chica. Atención a Proveedores-y Ctas Ctes. Liquidación de Sueldos y Jornales.Conciliación Bancaria, manejo de presupuestos y Facturación.",
       from: 2005,
       to: 2007,
     },
-    {
-      title: "Software developer at SpaceX",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-      from: 2010,
-    },
+  
   ];
   
   export const projects = [
