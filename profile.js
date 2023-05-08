@@ -11,19 +11,19 @@ export const skills = [
     },
     {
       skill: "Redux",
-      percentage: 60,
+      percentage: 70,
     },
     {
       skill: "React",
-      percentage: 70,
+      percentage: 80,
     },
     {
       skill: "Next.js",
-      percentage: 70,
+      percentage: 80,
     },
     {
       skill: "HTML",
-      percentage: 70,
+      percentage: 90,
     }, 
   ];
   
